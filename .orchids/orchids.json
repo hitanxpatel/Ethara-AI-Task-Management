@@ -1,0 +1,8 @@
+{
+  "startupCommands": [
+    "cd /home/user/app/backend && npm install && node src/seed.js; node src/index.js",
+    "cd /home/user/app/frontend && npm install; npm run dev"
+  ],
+  "projectId": "19b5f6ed-ed78-4f10-8fc0-df928873f432",
+  "templateId": "any"
+}

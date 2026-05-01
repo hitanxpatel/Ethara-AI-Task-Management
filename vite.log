@@ -1,0 +1,20 @@
+
+> team-task-manager-frontend@1.0.0 dev
+> vite
+
+Port 3000 is in use, trying another one...
+
+  VITE v5.4.21  ready in 169 ms
+
+  ➜  Local:   http://localhost:3001/
+  ➜  Network: use --host to expose
+6:08:23 AM [vite] Pre-transform error: /home/user/app/frontend/src/pages/Projects.jsx: Unexpected token, expected "}" (107:95)
+
+  105 |           <h3 className="font-medium text-gray-900 mb-1">No projects yet</h3>
+  106 |           <p className="text-sm text-gray-500">
+> 107 |             {user?.role === 'admin' ? 'Create your first project to get started.' : 'You haven't been added to any projects yet.'}
+      |                                                                                                ^
+  108 |           </p>
+  109 |           {user?.role === 'admin' && (
+  110 |             <button onClick={() => setModal('create')} className="btn-primary mt-4 inline-flex items-center gap-2">
+6:08:30 AM [vite] hmr update /src/index.css, /src/App.jsx
